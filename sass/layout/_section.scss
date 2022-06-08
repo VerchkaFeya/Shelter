@@ -1,0 +1,19 @@
+.section {
+	width: 100%;
+	padding: 80px 0 100px 0;
+
+		&_start {
+			padding: 0 0 0 0;
+		}
+
+		&_about,
+		&_help {
+			background-color: $color-background-light;
+		}
+
+		&_pets,
+		&_donation {
+			background-color: $color-background-grey;
+		}
+
+}

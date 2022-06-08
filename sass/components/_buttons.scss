@@ -1,0 +1,17 @@
+.button {
+	height: 52px;
+	padding: 0 45px;
+	font-family: $font-serif;
+	border-radius: 26px;
+	@include font(1.7rem, 130%, 400);
+	letter-spacing: 00.06rem;
+	@extend %transition;
+
+	&_colored {
+		background-color: $color-primary;
+
+		&:hover {
+			background-color: $color-primary-light;
+		}
+	}
+}

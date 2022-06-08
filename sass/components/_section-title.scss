@@ -1,0 +1,6 @@
+.section-title {
+	@include font(3.5rem, 4.55rem, 400);
+	letter-spacing: 0.06rem;
+	font-family: $font-serif;
+	color: $color-text-dark-l;
+}

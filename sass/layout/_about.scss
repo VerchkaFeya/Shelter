@@ -1,0 +1,16 @@
+.about__content {
+	padding: 0 175px 0 175px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about__pets {
+	max-width: 300px;
+	margin-right: 120px;
+}
+
+.about__text {
+	color: $color-text-dark-xl;
+	margin: 25px 0 0 0;
+}

@@ -1,0 +1,41 @@
+// :root {
+//   --color-light-xl: #ffffff;
+//   --color-light-s: #FAFAFA;
+//   --color-light-l: #F6F6F6;
+//   --color-dark-s: #CDCDCD;
+//   --color-dark-m: #B2B2B2;
+//   --color-dark-l: #545454;
+//   --color-dark-xl: #4C4C4C;
+//   --color-dark-3xl: #292929;
+//   --fsz-paragraph-l: 15px;
+//   --lht-paragraph-l: 160%; 
+//   --fsz-h2: 44px;
+//   --lht-h2: 130%;
+//   --fsz-h3: 35px;
+//   --lht-h3: 130%;
+//   --ltrspc-h3: 2.1px;
+
+// }
+
+// Main brand colors 
+  $color-primary: #F1CDB3;
+  $color-primary-light: #FDDCC4;
+
+// Text colors
+	$color-text-light-xl: #fff;
+	$color-text-light-s: #FAFAFA;
+	$color-text-dark-s: #CDCDCD;
+	$color-text-dark-l: #545454;
+	$color-text-dark-xl: #4C4C4C;
+	$color-text-dark-m: #B2B2B2;
+
+
+// Backgrounds colors
+
+	$color-background-light: #fff;
+	$color-background-grey: #F6F6F6;
+
+
+	// Font families 
+	$font-serif: 'Georgia';
+	$font-sans-serif: 'Arial';

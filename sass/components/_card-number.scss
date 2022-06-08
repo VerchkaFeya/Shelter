@@ -1,0 +1,19 @@
+.card-number {
+	display: inline-block;
+  background-color: $color-primary;
+  background-image: url('../../assets/icons/credit-card.svg');
+  background-position: left 15px top 10px;
+  background-repeat: no-repeat;
+  border-radius: 9px;
+  padding: 10px 15px 10px 60px; 
+  color: $color-text-dark-l;
+  @include font(2rem, 2.3rem, 400);
+	letter-spacing: 0.06em;
+  font-family: $font-serif;
+  margin: 20px 0;
+  @extend %transition;
+
+		&:hover {
+			background-color: $color-primary-light;
+		}
+}

@@ -1,0 +1,25 @@
+.start__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.start__info {
+	padding: 163px 42px 0 0;
+	display: flex;
+	flex-direction: column;
+	gap: 42px;
+}
+
+.start__title {
+	@include font(4.4rem, 5.72rem, 400);
+	font-family: 'Georgia';
+	color: $color-text-light-s;
+}
+
+.start__subtitle {
+	color: $color-text-dark-s;
+}
+
+.start__puppy {
+	max-width: 698px;
+}
