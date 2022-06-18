@@ -1,0 +1,50 @@
+.help-card {
+	padding: 90px 0 0 0;
+	background-position: top;
+	background-repeat: no-repeat;
+
+	&_food {
+		background-image: url("../../assets/icons/icon-pet-food.svg");
+	}
+	&_transportation {
+		background-image: url("../../assets/icons/icon-transportation.svg");
+	}
+	&_toys {
+		width: 60px;
+		background-image: url("../../assets/icons/icon-toys.svg");
+	}
+	&_bowls {
+		background-image: url("../../assets/icons/icon-bowls-and-cups.svg");
+	}
+	&_shampoos {
+		background-image: url("../../assets/icons/icon-shampoos.svg");
+	}
+	&_vitamins {
+		background-image: url("../../assets/icons/icon-vitamins.svg");
+	}
+	&_medicines{
+		background-image: url("../../assets/icons/icon-medicines.svg");
+	}
+	&_collars {
+		background-image: url("../../assets/icons/icon-collars-leashes.svg");
+	}
+	&_sleeping {
+		background-image: url("../../assets/icons/icon-sleeping-area.svg");
+	}
+
+	@include media-desktop {
+		width: 27%;
+	}
+
+}
+
+.help-card__title {
+	@include font(2rem, 2.3rem, 400);
+	letter-spacing: 0.06em;
+	font-family: $font-serif;
+	color: $color-text-dark-l;
+
+	@include media-desktop {
+		text-align: center;
+	}
+}

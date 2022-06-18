@@ -1,0 +1,19 @@
+.help__title {
+	text-align: center;
+}
+
+
+.help__list {
+	margin: 60px 0 0 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	row-gap: 55px;
+  column-gap: 120px;
+
+	@include media-desktop {
+		justify-content: space-between;
+		margin: 60px 39px 0px 39px;
+		column-gap: 9.5%;
+	}
+}

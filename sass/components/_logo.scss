@@ -1,0 +1,13 @@
+.logo__title {
+	@include font(3.2rem, 3.52rem, 400);
+	font-family: 'Georgia';
+	letter-spacing: 0.06rem;
+	color: $color-primary;
+}
+
+.logo__subtitle {
+	margin: 10px 0 0 0;
+	@include font(1.3rem, 1.495rem, 400);
+	letter-spacing: 0.1rem;
+	color: $color-text-light-xl;
+}
