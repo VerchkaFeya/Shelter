@@ -3,11 +3,23 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	@include media-desktop {
+		padding: 0 135px 0 135px;
+		flex-direction: column;
+		gap: 80px;
+	}
 }
 
 .about__pets {
 	max-width: 300px;
 	margin-right: 120px;
+
+	@include media-desktop {
+		order: 2;
+		margin: 0;
+	}
+
 }
 
 .about__text {

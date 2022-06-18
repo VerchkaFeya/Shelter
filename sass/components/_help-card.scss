@@ -31,6 +31,11 @@
 	&_sleeping {
 		background-image: url("../../assets/icons/icon-sleeping-area.svg");
 	}
+
+	@include media-desktop {
+		width: 27%;
+	}
+
 }
 
 .help-card__title {
@@ -38,4 +43,8 @@
 	letter-spacing: 0.06em;
 	font-family: $font-serif;
 	color: $color-text-dark-l;
+
+	@include media-desktop {
+		text-align: center;
+	}
 }

@@ -1,5 +1,14 @@
 .header {
 	height: 180px;
+
+	@include media-desktop {
+		height: 120px;
+	}
+
+	// @include media-tablet {
+	// 	height: 120px;
+	// }
+	
 }
 
 .header__wrapper {
@@ -14,4 +23,10 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.header__nav {
+	@include media-tablet {
+		display: none;
+	}
 }

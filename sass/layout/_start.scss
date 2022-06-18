@@ -1,6 +1,10 @@
 .start__content {
 	display: flex;
 	justify-content: space-between;
+
+	@include media-desktop {
+		flex-direction: column;
+	}
 }
 
 .start__info {
@@ -8,12 +12,27 @@
 	display: flex;
 	flex-direction: column;
 	gap: 42px;
+
+	@include media-desktop {
+		padding: 30px 0 0 0;
+		margin: 0 auto;
+		max-width: 460px;
+
+		a {
+			margin: 0 auto;
+			display: block;
+		}
+	}
 }
 
 .start__title {
 	@include font(4.4rem, 5.72rem, 400);
 	font-family: 'Georgia';
 	color: $color-text-light-s;
+
+	@include media-tablet {
+
+	}
 }
 
 .start__subtitle {
@@ -21,5 +40,19 @@
 }
 
 .start__puppy {
+	align-self: flex-end;
+	width: 60%;
 	max-width: 698px;
+	object-fit: contain;
+
+	@include media-desktop {
+		margin-top: 100px;
+		max-width: 569px;
+	}
 }
+
+// .start__button {
+// 	@include media-desktop {
+// 		margin: 0 auto;
+// 	}
+// }
